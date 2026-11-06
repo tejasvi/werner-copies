@@ -1,0 +1,58 @@
+[1s] k=4 d=3 t=2489/5000 nu=14604216267698527623672213/316912650057057350374175801344 (4.608278e-05); 4893 multiplier blocks, 8 equality groups
+[39s] orbits: {'04': 683, '13': 6892, '22': 14837, '31': 6892, '40': 683}
+[44s] PSD check: 0 failures over 4893 blocks
+[58s] multiplier part: |orbit sums| < 2^272 -> 14 primes; Dblk has 255 bits
+[88s] prime 1048573 done
+[121s] prime 1048571 done
+[148s] prime 1048559 done
+[181s] prime 1048549 done
+[214s] prime 1048517 done
+[244s] prime 1048507 done
+[281s] prime 1048447 done
+[310s] prime 1048433 done
+[346s] prime 1048423 done
+[375s] prime 1048391 done
+[408s] prime 1048387 done
+[438s] prime 1048367 done
+[467s] prime 1048361 done
+[506s] prime 1048357 done
+[508s] objective and trace orbit sums done
+[516s] equality group aaa done
+[524s] equality group aab done
+[533s] equality group abb done
+[542s] equality group bbb done
+[549s] equality group stiefel13 done
+[556s] equality group stiefel22 done
+[563s] equality group stiefel31 done
+[570s] equality group stiefel40 done
+[570s] family 04: 683 orbits, ||R_f||_1 = 2.028963e-18
+[570s] family 13: 6892 orbits, ||R_f||_1 = 9.618730e-18
+[570s] family 22: 14837 orbits, ||R_f||_1 = 1.518257e-17
+[570s] family 31: 6892 orbits, ||R_f||_1 = 6.902857e-18
+[570s] family 40: 683 orbits, ||R_f||_1 = 6.374691e-19
+[570s] Gram ranks: n=3 -> 23, n=2 -> 14; ||G_s^+||_inf = 131/1440, ||G_a^+||_inf = 31/180; K = 1.179572e-05, L = 688747536
+[570s] sum_f ||R_f||_1 = 3.437059e-17;  L K sum = 2.792360e-13  vs  nu = 4.608278e-05  (ratio nu / (L K sum) = 1.650e+08)
+[570s] SLACK_CERTIFICATE_PASS
+	Command being timed: "python -I verify_cert5.py t5_0.4978/cert_l2.pkl.xz --procs 24"
+	User time (seconds): 9108.66
+	System time (seconds): 1595.39
+	Percent of CPU this job got: 1876%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 9:30.52
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4544560
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 132229838
+	Voluntary context switches: 60007
+	Involuntary context switches: 18914
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 184
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

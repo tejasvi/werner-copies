@@ -1,0 +1,7 @@
+exact-worker jobs (verify/exact_words.py, 10 primes x 3 families x 8 key chunks): 240 jobs
+per-job wall time with 32 jobs running concurrently: min 559 s, max 1133 s, mean 867 s
+sum of per-job wall times: 208117 s (57.8 h)
+
+real	142m49.174s
+user	3513m32.355s
+sys	238m42.779s

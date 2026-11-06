@@ -1,0 +1,30 @@
+[0s] k=3 d=6, 1347 multiplier blocks
+[28s] PSD check: 0 failures
+[29s] orbits: {'13': 1142, '22': 2391, '31': 1142}
+[30s] 21 contribution groups; global denominator 8104 bits
+[37s] group 1/21 (13, cut , 88 contributions) done
+[44s] group 2/21 (13, cut 3, 77 contributions) done
+[51s] group 3/21 (13, cut 3, 111 contributions) done
+[58s] group 4/21 (13, cut 2,3, 109 contributions) done
+[65s] group 5/21 (13, cut 0, 105 contributions) done
+[71s] group 6/21 (13, cut 0,1, 65 contributions) done
+[79s] group 7/21 (22, cut , 101 contributions) done
+[88s] group 8/21 (22, cut 3, 111 contributions) done
+[96s] group 9/21 (22, cut 2, 106 contributions) done
+[104s] group 10/21 (22, cut 2,3, 109 contributions) done
+[114s] group 11/21 (22, cut 2,3, 109 contributions) done
+[125s] group 12/21 (22, cut 3, 111 contributions) done
+[134s] group 13/21 (22, cut 0, 106 contributions) done
+[144s] group 14/21 (22, cut 0,2, 114 contributions) done
+[154s] group 15/21 (22, cut 0,1, 31 contributions) done
+[164s] group 16/21 (31, cut , 88 contributions) done
+[173s] group 17/21 (31, cut 3, 77 contributions) done
+[181s] group 18/21 (31, cut 2,3, 109 contributions) done
+[191s] group 19/21 (31, cut 3, 111 contributions) done
+[202s] group 20/21 (31, cut 0, 105 contributions) done
+[210s] group 21/21 (31, cut 0,1, 64 contributions) done
+[234s] objective and equality contributions done
+[234s] family 13: orbits 1142, nonzero orbit sums 0
+[234s] family 22: orbits 2391, nonzero orbit sums 0
+[234s] family 31: orbits 1142, nonzero orbit sums 0
+[234s] EXACT_CERTIFICATE_PASS

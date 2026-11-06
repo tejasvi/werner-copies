@@ -1,0 +1,4 @@
+numpy>=2
+scipy
+sympy
+python-flint==0.9.0

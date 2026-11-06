@@ -1,0 +1,9 @@
+primes used for CRT: 17 (340 bits); check prime 1048573
+R0o family 31: 6892 orbits, sum |R| = 1.959739e-07, max |R| = 1.126e-10, max numerator bits 238 (CRT check OK)
+R0o family 22: 14837 orbits, sum |R| = 4.787356e-07, max |R| = 1.916e-10, max numerator bits 239 (CRT check OK)
+R0o family 13: 6892 orbits, sum |R| = 2.052638e-07, max |R| = 1.201e-10, max numerator bits 238 (CRT check OK)
+R1o family 31: 6892 orbits, sum |R| = 2.568446e+03, max |R| = 1.567e+01, max numerator bits 275 (CRT check OK)
+R1o family 22: 14837 orbits, sum |R| = 3.459334e+03, max |R| = 5.669e+00, max numerator bits 273 (CRT check OK)
+R1o family 13: 6892 orbits, sum |R| = 2.193514e+03, max |R| = 5.233e+00, max numerator bits 273 (CRT check OK)
+EXACT S0 = 8.799734e-07, EXACT S1 = 8.221293e+03, S2 upper = 8.0883e+09
+LK(1.25e9) = 2.7555556; total = 7.462185e-06; margin gamma - LK*total = 7.943754e-05  => POSITIVE

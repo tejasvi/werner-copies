@@ -1,0 +1,101 @@
+== 0. checksums
+SHA256SUMS OK
+== 1. exact trace-slack constant LK(1e10)
+rank G_a = 14
+||G_a^+||_inf = 31/180 = 0.17222222222222222
+cycle counts of non-identity permutations: {3: 6, 2: 11, 1: 6}
+LK(s0 = 1/10000000000) <= exact rational = 2.755555563822
+n = 4: n^4 ||G_site^-1||_inf = 10.666667, Neumann bound n/a OK
+n = 5: n^4 ||G_site^-1||_inf = 5.208333, Neumann bound n/a OK
+n = 7: n^4 ||G_site^-1||_inf = 2.858333, Neumann bound n/a OK
+n = 11: n^4 ||G_site^-1||_inf = 1.848611, Neumann bound 2.784519 OK
+== 2. per-site polynomial data vs exact local data
+n = 4 cut ()     : 5 labels, mismatches 0
+n = 4 cut (3,)   : 5 labels, mismatches 0
+n = 4 cut (0,)   : 5 labels, mismatches 0
+n = 4 cut (2,)   : 5 labels, mismatches 0
+n = 4 cut (0, 1) : 6 labels, mismatches 0
+n = 4 cut (0, 2) : 6 labels, mismatches 0
+n = 4 cut (2, 3) : 6 labels, mismatches 0
+n = 5 cut ()     : 5 labels, mismatches 0
+n = 5 cut (3,)   : 5 labels, mismatches 0
+n = 5 cut (0,)   : 5 labels, mismatches 0
+n = 5 cut (2,)   : 5 labels, mismatches 0
+n = 5 cut (0, 1) : 6 labels, mismatches 0
+n = 5 cut (0, 2) : 6 labels, mismatches 0
+n = 5 cut (2, 3) : 6 labels, mismatches 0
+n = 6 cut ()     : 5 labels, mismatches 0
+n = 6 cut (3,)   : 5 labels, mismatches 0
+n = 6 cut (0,)   : 5 labels, mismatches 0
+n = 6 cut (2,)   : 5 labels, mismatches 0
+n = 6 cut (0, 1) : 6 labels, mismatches 0
+n = 6 cut (0, 2) : 6 labels, mismatches 0
+n = 6 cut (2, 3) : 6 labels, mismatches 0
+FT_poly(n) == G pi (module_data) for all cuts, labels, p at n = 4, 5, 6
+== 3. word-level orbit labels (24^6 words, 3 families)
+[5s] digits built
+[53s] family 31: 11 generator maps ['site(0,1)', 'site(1,2)', 'site(2,3)', 'site(3,4)', 'L(0, 2, 1, 3)', 'R(0, 2, 1, 3)', 'L(1, 0, 2, 3)', 'R(1, 0, 2, 3)', 'L(2, 1, 0, 3)', 'R(2, 1, 0, 3)', 'inv']
+[60s]   pass 1: 191047786 labels changed
+[67s]   pass 2: 36526248 labels changed
+[72s]   pass 3: 40608 labels changed
+[78s]   pass 4: 0 labels changed
+[94s] family 31: 36195 orbits (Burnside 36195, |L_f| = 72, |H_f| = 8640), max size 8640, min size 6; saved
+[131s] family 22: 9 generator maps ['site(0,1)', 'site(1,2)', 'site(2,3)', 'site(3,4)', 'L(1, 0, 2, 3)', 'R(1, 0, 2, 3)', 'L(0, 1, 3, 2)', 'R(0, 1, 3, 2)', 'inv']
+[137s]   pass 1: 191001355 labels changed
+[142s]   pass 2: 23527944 labels changed
+[146s]   pass 3: 0 labels changed
+[161s] family 22: 79245 orbits (Burnside 79245, |L_f| = 32, |H_f| = 3840), max size 3840, min size 4; saved
+[209s] family 13: 11 generator maps ['site(0,1)', 'site(1,2)', 'site(2,3)', 'site(3,4)', 'L(0, 2, 1, 3)', 'R(0, 2, 1, 3)', 'L(1, 0, 2, 3)', 'R(1, 0, 2, 3)', 'L(2, 1, 0, 3)', 'R(2, 1, 0, 3)', 'inv']
+[216s]   pass 1: 191047786 labels changed
+[222s]   pass 2: 36526248 labels changed
+[228s]   pass 3: 40608 labels changed
+[233s]   pass 4: 0 labels changed
+[250s] family 13: 36195 orbits (Burnside 36195, |L_f| = 72, |H_f| = 8640), max size 8640, min size 6; saved
+== 4. absolute shadows: CRT bounds and the S2 majorant
+[0s] key 0/5627
+[1s] key 1000/5627
+[4s] key 2000/5627
+[5s] key 3000/5627
+[9s] key 4000/5627
+[11s] key 5000/5627
+[13s] B0 {'31': '2.4882e+07', '22': '5.7458e+07', '13': '9.6544e+06'}
+[13s] B1 {'31': '8.3553e+06', '22': '4.1344e+07', '13': '2.6160e+06'}
+[13s] S2 majorant (full absolute shadow, all orders, x(1+1e-9)) = 1.153988e+12  per family {'31': '8.957e+10', '22': '1.042e+12', '13': '2.287e+10'}
+[13s] equality literal-row fit |mu Gx - phi|/|phi| max: 7.708e-16
+== 5. exact residues: 10 primes x 3 families x 8 chunks, 32 in parallel (logs/w_*.log)
+== 6. CRT combination and margin
+[1s] 240 result files; primes [2097023, 2097031, 2097041, 2097047, 2097083, 2097091, 2097097, 2097131, 2097133, 2097143]; E=66 Elam=69 Den bits 144
+[1s] CRT over 9 primes (2^189.0) > 2 Den max(B0,B1) = 2^170.4; check prime 2097143
+[1s] family 31 R0: 36195 orbits, check prime OK, EXACT sum |R0(o)| = 1.215400240e-10 (max orbit 2.100e-14)
+[1s] family 31 R1: 36195 orbits, check prime OK, EXACT sum |R1(o)| = 6.306294976e+03 (max orbit 2.021e+01)
+[2s] family 22 R0: 79245 orbits, check prime OK, EXACT sum |R0(o)| = 8.296792436e-11 (max orbit 1.514e-14)
+[2s] family 22 R1: 79245 orbits, check prime OK, EXACT sum |R1(o)| = 6.333546742e+04 (max orbit 1.048e+01)
+[2s] family 13 R0: 36195 orbits, check prime OK, EXACT sum |R0(o)| = 1.805444276e-11 (max orbit 1.286e-14)
+[2s] family 13 R1: 36195 orbits, check prime OK, EXACT sum |R1(o)| = 7.636932820e+03 (max orbit 2.548e+00)
+[2s] EXACT S0 = 1893351430981217292283328505843863/8507059173023461586584365185794205286400000 = 2.225623911e-10
+[2s] EXACT S1 = 7.727869522e+04;  S2 <= 1153988426746;  s0 = 1/10000000000;  LK(s0) = 2.755555564
+[2s] S0 + s0 S1 + s0^2 S2 = 7.739632e-06;  margin nu - LK (...) = 9.786730141e-04  => POSITIVE (q_5(9/20, C) > 0 for every rank-2 C at every n >= 1/s0)
+== 8. cross-check: the producer's class-sum verifier
+[5s] k = 5: 2358720 class points; orbits {'31': 36195, '22': 79245, '13': 36195}
+[5s] blocks: 11409, raw factors rounded to 2^-66 (max |M| 1.163e-01)
+[5s] 5627 block keys
+[6s] equality multipliers on literal ancilla rows, rounded to 2^-69
+[6s] Den = 2^132 * 3125 (144 bits); 11 primes < 2^20; 12 tasks on 12 processes
+   prime 1048391 done in 1288s
+   prime 1048447 done in 1300s
+   prime 1048571 done in 1301s
+   shadow done in 1305s
+   prime 1048507 done in 1318s
+   prime 1048573 done in 1325s
+   prime 1048549 done in 1344s
+   prime 1048423 done in 1445s
+   prime 1048559 done in 1452s
+   prime 1048387 done in 1462s
+   prime 1048433 done in 1466s
+   prime 1048517 done in 1483s
+[1488s] modular orbit sums (11 primes) and float shadow done; S2 majorant 1.1540e+12
+[1489s] family 31: 36195 orbits, EXACT S0 = 1.215431e-10 (max orbit 2.100e-14), S1 = 6.306295e+03
+[1491s] family 22: 79245 orbits, EXACT S0 = 8.295730e-11 (max orbit 1.514e-14), S1 = 6.333547e+04
+[1492s] family 13: 36195 orbits, EXACT S0 = 1.805420e-11 (max orbit 1.288e-14), S1 = 7.636933e+03
+[1492s] EXACT: ||G_a^+||_inf = 31/180; LK <= 2.755556 for d >= 10000000000; S0 2.225546e-10 + s0 S1 7.727870e-06 + s0^2 S2 1.153988e-08; nu - LK total = 9.786730e-04  => PASS
+K5 EXACT CHECK PASSED: margin positive for every d >= 1e10 (all d by zero padding)

@@ -1,0 +1,29 @@
+[1s] k=5 d=3 t=9/20 nu=11062417109271602409261/2417851639229258349412352 (4.575308e-03); 495 multiplier blocks, 5 equality groups
+[6s] points 2358720; orbits: {'13': 36195, '22': 79245, '31': 36195}
+[17s] PSD check: 0 failures over 495 blocks
+[30s] multiplier part: |orbit sums| < 2^240 -> 13 primes; Dblk has 222 bits
+[49s] prime 1048573 done
+[70s] prime 1048571 done
+[89s] prime 1048559 done
+[118s] prime 1048549 done
+[140s] prime 1048517 done
+[162s] prime 1048507 done
+[186s] prime 1048447 done
+[215s] prime 1048433 done
+[249s] prime 1048423 done
+[275s] prime 1048391 done
+[305s] prime 1048387 done
+[339s] prime 1048367 done
+[368s] prime 1048361 done
+[371s] objective and trace orbit sums done
+[388s] equality group aab done
+[406s] equality group abb done
+[422s] equality group stiefel13 done
+[443s] equality group stiefel22 done
+[463s] equality group stiefel31 done
+[464s] family 13: 36195 orbits, ||R_f||_1 = 8.500751e-12
+[465s] family 22: 79245 orbits, ||R_f||_1 = 2.021904e-11
+[465s] family 31: 36195 orbits, ||R_f||_1 = 1.185577e-11
+[465s] Gram ranks: n=3 -> 23, n=2 -> 14; ||G_s^+||_inf = 131/1440, ||G_a^+||_inf = 31/180; K = 1.073083e-06, L = 55788550416
+[465s] sum_f ||R_f||_1 = 4.057557e-11;  L K sum = 2.429086e-06  vs  nu = 4.575308e-03  (ratio nu / (L K sum) = 1.884e+03)
+[465s] SLACK_CERTIFICATE_PASS

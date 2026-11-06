@@ -1,0 +1,41 @@
+point: ||a||^2 = 1.000000, ||b||^2 = 1.000000, q_4(t,C) = 1.524594e-01
+n=4        (1) 16n^16 c(x) = 1.524593769263e-01 vs q4*||a||^4 = 1.524593769263e-01  rel.err 9.1e-16
+           (2) 16n^16 tau(x) = 1.000000000000e+00 vs ||a||^6||b||^2 = 1.000000000000e+00
+           (3) max|x_w| <= LK(n) tau(x) for all families: OK (LK(n) = 35671.7213)
+             group [('31', (0, None))] max|E| = 2.296e-15
+             group [('22', (0, None))] max|E| = 6.667e-15
+             group [('13', (3, None))] max|E| = 8.541e-15
+             group [('31', (2, (0, 1, 3))), ('22', (2, (0, 1, 3)))] max|E| = 9.326e-15
+             group [('22', (1, (0, 2, 3))), ('13', (1, (3, 0, 2)))] max|E| = 5.773e-15
+           (4) max |E(x)| over all equality rows = 9.326e-15
+           (5) src keys with <Q,M(x)> < 0: 0 of 3206; total block term 7.358896e-03 (must be >= 0)
+n=50       (1) 16n^16 c(x) = 1.524593769263e-01 vs q4*||a||^4 = 1.524593769263e-01  rel.err 2.9e-15
+           (2) 16n^16 tau(x) = 1.000000000000e+00 vs ||a||^6||b||^2 = 1.000000000000e+00
+           (3) max|x_w| <= LK(n) tau(x) for all families: OK (LK(n) = 4.5051)
+             group [('31', (0, None))] max|E| = 2.239e-14
+             group [('22', (0, None))] max|E| = 5.426e-14
+             group [('13', (3, None))] max|E| = 7.597e-14
+             group [('31', (2, (0, 1, 3))), ('22', (2, (0, 1, 3)))] max|E| = 6.040e-14
+             group [('22', (1, (0, 2, 3))), ('13', (1, (3, 0, 2)))] max|E| = 2.274e-13
+           (4) max |E(x)| over all equality rows = 2.274e-13
+           (5) src keys with <Q,M(x)> < 0: 0 of 3206; total block term 7.595470e-03 (must be >= 0)
+n=1e+03    (1) 16n^16 c(x) = 1.524593769263e-01 vs q4*||a||^4 = 1.524593769263e-01  rel.err 6.2e-15
+           (2) 16n^16 tau(x) = 1.000000000000e+00 vs ||a||^6||b||^2 = 1.000000000000e+00
+           (3) max|x_w| <= LK(n) tau(x) for all families: OK (LK(n) = 2.8226)
+             group [('31', (0, None))] max|E| = 2.931e-14
+             group [('22', (0, None))] max|E| = 7.008e-14
+             group [('13', (3, None))] max|E| = 9.806e-14
+             group [('31', (2, (0, 1, 3))), ('22', (2, (0, 1, 3)))] max|E| = 8.527e-14
+             group [('22', (1, (0, 2, 3))), ('13', (1, (3, 0, 2)))] max|E| = 2.629e-13
+           (4) max |E(x)| over all equality rows = 2.629e-13
+           (5) src keys with <Q,M(x)> < 0: 0 of 3206; total block term 7.761465e-03 (must be >= 0)
+n=1.25e+09 (1) 16n^16 c(x) = 1.524593769263e-01 vs q4*||a||^4 = 1.524593769263e-01  rel.err 1.3e-15
+           (2) 16n^16 tau(x) = 1.000000000000e+00 vs ||a||^6||b||^2 = 1.000000000000e+00
+           (3) max|x_w| <= LK(n) tau(x) for all families: OK (LK(n) = 2.7556)
+             group [('31', (0, None))] max|E| = 3.106e-14
+             group [('22', (0, None))] max|E| = 6.930e-14
+             group [('13', (3, None))] max|E| = 1.027e-13
+             group [('31', (2, (0, 1, 3))), ('22', (2, (0, 1, 3)))] max|E| = 9.948e-14
+             group [('22', (1, (0, 2, 3))), ('13', (1, (3, 0, 2)))] max|E| = 5.684e-14
+           (4) max |E(x)| over all equality rows = 1.027e-13
+           (5) src keys with <Q,M(x)> < 0: 0 of 3206; total block term 7.770866e-03 (must be >= 0)

@@ -1,0 +1,70 @@
+v3 option: compressed EP_1 (TB) rows EXCLUDED
+a_cert.py X = 11/5 = 2.200000, J = 12, kmin = 6, K5 rows: True
+  rows with total size <= 6: 103   (0.0s)
+PERK k=6 rows<=6 LP 7.708993e-03 exact slack 93/100 (7.708993e-03) used 6 rows OK
+   rows: TB(6), FHPV(2,2)+c[1, 1], EP3(4, 1, 1), EP3(2, 1, 1)+c[2], K4(1, 1, 1, 1)+c[2], K5(1, 1, 1, 1, 1)
+  rows with total size <= 7: 200   (0.0s)
+PERK k=7 rows<=7 LP 1.204793e-02 exact slack 83/89 (1.204793e-02) used 7 rows OK
+   rows: TB(7), FHPV(4,3), FHPV(3,3)+c[1], EP3(3, 3, 1), K4(1, 1, 1, 1)+c[3], K5(1, 1, 1, 1, 1), K5(1, 1, 1, 1, 1)+c[2]
+  rows with total size <= 8: 367   (0.0s)
+PERK k=8 rows<=8 LP 1.528154e-02 exact slack 84/90 (1.528154e-02) used 8 rows OK
+   rows: TB(8), FHPV(3,3)+c[1, 1], EP3(2, 2, 2)+c[1, 1], K4(3, 1, 1, 1)+c[2], K4(1, 1, 1, 1)+c[2, 2], K5(1, 1, 1, 1, 1), K5(1, 1, 1, 1, 1)+c[3], K5(1, 1, 1, 1, 1)+c[2]
+  rows with total size <= 9: 647   (0.0s)
+PERK k=9 rows<=9 LP 1.773533e-02 exact slack 110/116 (1.773533e-02) used 9 rows OK
+   rows: FHPV(6,1)+c[2], FHPV(3,3)+c[1, 1, 1], CR(8,1), EP3(2, 2, 2)+c[1, 1, 1], K4(4, 1, 1, 1)+c[2], K5(1, 1, 1, 1, 1), K5(1, 1, 1, 1, 1)+c[4], K5(1, 1, 1, 1, 1)+c[3], K5(1, 1, 1, 1, 1)+c[2]
+  rows with total size <= 10: 1098   (0.1s)
+PERK k=10 rows<=10 LP 1.919295e-02 exact slack 94/100 (1.919295e-02) used 10 rows OK
+   rows: FHPV(7,1)+c[2], FHPV(4,4)+c[1, 1], CR(8,1)+c[1], EP3(2, 2, 2)+c[1, 1, 1, 1], K5(4, 1, 1, 1, 1)+c[2], K5(1, 1, 1, 1, 1), K5(1, 1, 1, 1, 1)+c[3], K5(1, 1, 1, 1, 1)+c[3, 2], K5(1, 1, 1, 1, 1)+c[2], K5(1, 1, 1, 1, 1)+c[2, 2]
+  rows with total size <= 11: 1810   (0.1s)
+PERK k=11 rows<=11 LP 2.013928e-02 exact slack 88/94 (2.013928e-02) used 11 rows OK
+   rows: FHPV(7,1)+c[1, 1, 1], FHPV(6,2)+c[1, 1, 1], CR(8,1)+c[1, 1], EP3(7, 1, 1)+c[2], EP3(3, 2, 2)+c[1, 1, 1, 1], K4(2, 2, 2, 1)+c[1, 1, 1, 1], K5(1, 1, 1, 1, 1), K5(1, 1, 1, 1, 1)+c[5], K5(1, 1, 1, 1, 1)+c[4], K5(1, 1, 1, 1, 1)+c[3], K5(1, 1, 1, 1, 1)+c[2]
+  rows with total size <= 12: 2905   (0.3s)
+  tail bound sum_{odd j > 12} X^j/j! <= 5.388e-06
+LIMIT-ish [1e12, inf): LP 2.190097e-02 exact 2.189019e-02
+  interval [12, 12] slack 1.828e-02  (step 1, active 11, 0.3s)
+  interval [13, 13] slack 1.902e-02  (step 1, active 11, 0.3s)
+  interval [14, 14] slack 1.944e-02  (step 1, active 11, 0.3s)
+  interval [15, 15] slack 1.979e-02  (step 1, active 11, 0.3s)
+  interval [16, 16] slack 2.005e-02  (step 1, active 11, 0.3s)
+  interval [17, 17] slack 2.028e-02  (step 1, active 11, 0.3s)
+  interval [18, 18] slack 2.048e-02  (step 1, active 11, 0.3s)
+  interval [19, 19] slack 2.067e-02  (step 1, active 11, 0.3s)
+  interval [20, 20] slack 2.083e-02  (step 1, active 11, 0.3s)
+  interval [21, 21] slack 2.097e-02  (step 1, active 11, 0.3s)
+  interval [22, 22] slack 2.108e-02  (step 1, active 11, 0.3s)
+  interval [23, 23] slack 2.119e-02  (step 1, active 11, 0.3s)
+  interval [24, 24] slack 2.128e-02  (step 1, active 11, 0.3s)
+  interval [25, 26] slack 6.553e-05  (step 2, active 11, 0.3s)
+  interval [27, 28] slack 3.325e-03  (step 2, active 11, 0.3s)
+  interval [29, 30] slack 5.796e-03  (step 2, active 11, 0.4s)
+  interval [31, 32] slack 7.859e-03  (step 2, active 11, 0.4s)
+  interval [33, 34] slack 9.600e-03  (step 2, active 11, 0.4s)
+  interval [35, 36] slack 1.108e-02  (step 2, active 11, 0.4s)
+  interval [37, 38] slack 1.236e-02  (step 2, active 11, 0.4s)
+  interval [39, 40] slack 1.345e-02  (step 2, active 11, 0.4s)
+  interval [41, 42] slack 1.432e-02  (step 2, active 11, 0.4s)
+  interval [43, 46] slack 1.818e-05  (step 4, active 11, 0.4s)
+  interval [47, 50] slack 3.686e-03  (step 4, active 11, 0.4s)
+  interval [51, 54] slack 6.598e-03  (step 4, active 11, 0.4s)
+  interval [55, 58] slack 8.949e-03  (step 4, active 11, 0.4s)
+  interval [59, 62] slack 1.087e-02  (step 4, active 11, 0.4s)
+  interval [63, 66] slack 1.238e-02  (step 4, active 11, 0.4s)
+  interval [67, 74] slack 1.333e-03  (step 8, active 11, 0.4s)
+  interval [75, 82] slack 5.737e-03  (step 8, active 11, 0.4s)
+  interval [83, 90] slack 9.018e-03  (step 8, active 11, 0.4s)
+  interval [91, 98] slack 1.143e-02  (step 8, active 11, 0.4s)
+  interval [99, 114] slack 2.508e-03  (step 16, active 11, 0.4s)
+  interval [115, 130] slack 7.910e-03  (step 16, active 11, 0.4s)
+  interval [131, 162] slack 1.961e-04  (step 32, active 11, 0.4s)
+  interval [163, 194] slack 8.281e-03  (step 32, active 11, 0.4s)
+  interval [195, 258] slack 3.631e-03  (step 64, active 11, 0.4s)
+  interval [259, 386] slack 3.278e-03  (step 128, active 11, 0.4s)
+  interval [387, 642] slack 7.457e-03  (step 256, active 11, 0.5s)
+  interval [643, 1154] slack 1.293e-02  (step 512, active 11, 0.5s)
+INTERVAL [1155, inf): exact slack 1.005558e-02  (rows 8)
+intervals used: 41, full-LP fallbacks: 0, active rows: 11
+active rows: CR(5,1)+c[1, 1, 1, 1, 1, 1], FHPV(2,2)+c[1, 1, 1, 1, 1, 1, 1, 1], K4(1, 1, 1, 1)+c[2, 2, 2, 2], K5(1, 1, 1, 1, 1), K5(1, 1, 1, 1, 1)+c[2, 2, 2], K5(1, 1, 1, 1, 1)+c[2, 2], K5(1, 1, 1, 1, 1)+c[2], K5(1, 1, 1, 1, 1)+c[3, 2], K5(1, 1, 1, 1, 1)+c[3], K5(1, 1, 1, 1, 1)+c[4, 3], TB(12)
+MIN EXACT SLACK 1.818307e-05
+COVERAGE: 47 pieces, first (6, 6), last (1155, None), contiguous from kmin to infinity: True
+BASE TYPES USED IN ALL CERTIFICATES: ['CR', 'EP3', 'FHPV', 'K4', 'K5', 'TB']
+RESULT X=11/5: ALL k >= 6 CERTIFIED  (0.5s)

@@ -1,0 +1,3 @@
+<ROOT>/dim/runs/cert2_k3_d6.pkl: d=6, 1342 multipliers, consistent=True, strictly PD failures: 0
+<ROOT>/dim/runs/cert2_k3_d16.pkl: d=16, 1342 multipliers, consistent=True, strictly PD failures: 0
+<ROOT>/dim/runs/certnode_n17.pkl: d=17, 1342 multipliers, consistent=True, strictly PD failures: 0

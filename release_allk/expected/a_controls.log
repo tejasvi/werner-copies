@@ -1,0 +1,18 @@
+(1) rows <= 14 (with K5): 8267; min value at P'' = 0 (K5(1, 1, 1, 1, 1))  -> OK
+(1) rows <= 14 (no K5): 7563; min value at P' = 0 (K4(1, 1, 1, 1))  -> OK
+(2) X = 11/5, K5 rows False, k = 6: LP optimum (min q) = -1.791982e-01 -> FAILS as it must
+(2) X = 11/5, K5 rows False, k = 9: LP optimum (min q) = -1.202838e-01 -> FAILS as it must
+(2) X = 11/5, K5 rows False, J = 12 limit: LP optimum = -1.144039e-01 -> FAILS as it must
+(2) X = 113/50, K5 rows True, k = 9: LP optimum (min q) = -7.572797e-03 -> FAILS as it must
+(2) X = 113/50, K5 rows True, J = 12 limit: LP optimum = -4.925249e-03 -> FAILS as it must
+(3) sample profile a_j (k = 7 qubits): 1.0000 0.5048 0.2532 0.1256 0.0613 0.0303 0.0186 0.0215
+(3) max |q_direct - q_profile| over 30 random rank-2 C: 4.16e-16
+(3) min over samples of row K5(1, 1, 1, 1, 1)            = 0.26619 OK
+(3) min over samples of row K5(1, 1, 1, 1, 1)+c[2]       = 0.33266 OK
+(3) min over samples of row K4(1, 1, 1, 1)+c[3]          = 0.35041 OK
+(3) min over samples of row FHPV(2,2)+c[1, 1, 1]         = 5.14290 OK
+(3) min over samples of row TB(6)                        = 0.99355 OK
+(3) min over samples of row EP3(2, 1, 1)+c[2]            = 0.59928 OK
+(3) min over samples of row CR(1,2)+c[2, 2]              = 2.57295 OK
+(3) min over samples of row CR(2,1)+c[3]                 = 1.86424 OK
+CONTROLS DONE

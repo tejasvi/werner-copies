@@ -1,0 +1,8 @@
+[d=5     0.2s] 1347 types, 272 equality multipliers, |S| = |R| = 2634
+[d=5    14.4s] 1. residual of the approximate certificate: max |r| = 8.856e-27
+[d=5   102.8s] 2. exact S columns at d = 5 (4 primes, height bound 2^83)
+[d=5   130.3s] 3. exact correction: max |u| = 2.133e-41, max denominator 8140 bits
+[d=5   270.4s] 4. identity c = (verifier map)(Z, lambda): nonzero orbit sums 0 of 4675
+[d=5   284.3s] 4. PSD (exact characteristic polynomial): 0 of 1347 multipliers fail
+[d=5   284.3s] EXACT CERTIFICATE AT d = 5: PASS
+ALL PER-d CERTIFICATES: PASS

@@ -1,0 +1,57 @@
+== 0. checksums
+SHA256SUMS OK
+== 1. exact trace-slack constant LK
+rank Ga 14
+||Ga^+||_inf = 31/180 = 0.17222222222222222
+cycle counts of non-identity perms {3: 6, 2: 11, 1: 6}
+LK(n0) exact bound = 2.755555608462223
+n 4 n^4||Gsite^-1||_inf = 10.666666666666666  Neumann bound n/a  ok
+n 5 n^4||Gsite^-1||_inf = 5.208333333333333  Neumann bound n/a  ok
+n 7 n^4||Gsite^-1||_inf = 2.8583333333333334  Neumann bound n/a  ok
+n 11 n^4||Gsite^-1||_inf = 1.8486111111111112  Neumann bound 2.784518828451883  ok
+== 2. multiplier factors from the certificate
+[0s] t = 79/160, mu = 1.9820690385295624e-11, 6162 multiplier blocks; max |M| 1.292e-01
+[1s] saved work/prep_blocks.pkl
+== 3. equality structure and lam
+[143s] saved work/prep_eq.pkl and work/prep_eqmats.pkl (67392 equality rows, |lam|max 2.459e-03)
+== 4. orbit labels
+[2s] family 31: 3 transpositions in G_f, 6892 orbits, max orbit size 1728
+[4s] family 22: 2 transpositions in G_f, 14837 orbits, max orbit size 768
+[6s] family 13: 3 transpositions in G_f, 6892 orbits, max orbit size 1728
+== 5. S2 upper bound
+shadow totals: blocks 7.9911e+09, objective/trace 1.2389e+07, equality 4.8035e+06; S2 upper bound 8.0883e+09
+== 6. exact residues: 18 primes x 3 chunks, 54 in parallel (logs/w_*.log)
+== 7. CRT combination and margin
+primes used for CRT: 17 (340 bits); check prime 1048573
+R0o family 31: 6892 orbits, sum |R| = 1.959739e-07, max |R| = 1.126e-10, max numerator bits 238 (CRT check OK)
+R0o family 22: 14837 orbits, sum |R| = 4.787356e-07, max |R| = 1.916e-10, max numerator bits 239 (CRT check OK)
+R0o family 13: 6892 orbits, sum |R| = 2.052638e-07, max |R| = 1.201e-10, max numerator bits 238 (CRT check OK)
+R1o family 31: 6892 orbits, sum |R| = 2.568446e+03, max |R| = 1.567e+01, max numerator bits 275 (CRT check OK)
+R1o family 22: 14837 orbits, sum |R| = 3.459334e+03, max |R| = 5.669e+00, max numerator bits 273 (CRT check OK)
+R1o family 13: 6892 orbits, sum |R| = 2.193514e+03, max |R| = 5.233e+00, max numerator bits 273 (CRT check OK)
+EXACT S0 = 8.799734e-07, EXACT S1 = 8.221293e+03, S2 upper = 8.0883e+09
+LK(1.25e9) = 2.7555556; total = 7.462185e-06; margin gamma - LK*total = 7.943754e-05  => POSITIVE
+K4 EXACT CHECK PASSED: margin positive for every d >= 1.25e9 (all d by Lemma M1)
+	Command being timed: "./run_all.sh 54"
+	User time (seconds): 29559.92
+	System time (seconds): 16839.64
+	Percent of CPU this job got: 4194%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 18:26.24
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3836308
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 14
+	Minor (reclaiming a frame) page faults: 1588603274
+	Voluntary context switches: 735
+	Involuntary context switches: 112544
+	Swaps: 0
+	File system inputs: 6288
+	File system outputs: 208152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

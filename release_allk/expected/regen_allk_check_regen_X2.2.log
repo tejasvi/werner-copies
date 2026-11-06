@@ -1,0 +1,1 @@
+allk_k5_X2.2.json: X = 11/5 J = 12 k0 = 6 K = 1010 | (A) k = 6..11 min slack 7.7090e-03 | (B) 999 k, 829 per-k fixes, min slack 1.8003e-05 | (C) 2.2194e-05 > 0 | ALL CHECKS PASS: q_k(11/5/k) >= 0 for every k >= 6

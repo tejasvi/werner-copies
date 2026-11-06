@@ -1,0 +1,13 @@
+[    0.7s] certificate: 1347 types, 272 base equality items, stage-1 29788 columns (degree 20), |S| = |R| = 2634, 4675 rows
+[    0.7s] [A] 41 diagram labels with standard keys and integer C; delta_t = 2 sum f for all 1347 types; columns have degree <= 4k = 12, the residual degree <= 32
+[    0.7s] [A] multiplier classes (13 partial-transpose patterns, gram, gram2) and the five equality groups are the validated ones
+[    1.2s] [B] margins: 13233 Bernstein coefficient blocks checked exactly, failures 0; m = 2.712241e-06
+[    2.7s] [C] stage 1: sup_s ||Delta D_t(s)||_op <= eps1 = 1.8771e-09
+[  151.7s] [D] exact residual r'(s) at 38 nodes: max |r'| = 3.934e-19
+[  151.7s] [F] W(s)^T r'(s) == 0 exactly at 38 nodes (degree <= 37): failures 0
+[  153.8s] [F] rank W(1/9) mod 1000003 = 2041 (nrow - |R| = 2041)
+[  217.0s] [E] height bounds: max column numerator < 2^246, W scaling < 2^129 -> 15 primes below 2^26
+[ 1233.2s] [E,F] S columns at 18 nodes modulo 15 primes: W^T A_S nonzero in 0 (node, prime) checks -> exact identity
+[ 1394.9s] [G] theta <= 1.2234e-05 (max ||E(tau)||_F 3.765e-06, Lebesgue 3.249); ||[D_c B]_blk|| <= 2.2926e+11; sup ||D_r r'_R|| <= 1.5912e-20
+[ 1394.9s] [H] eps1 + sqrt(2) eps2 <= 1.8771e-09 + 5.1592e-09 = 7.0362e-09  vs  m = 2.712241e-06  (ratio 385.5)
+[ 1394.9s] ALL-D CERTIFICATE (d >= 9): PASS

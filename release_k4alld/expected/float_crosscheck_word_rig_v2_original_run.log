@@ -1,0 +1,9 @@
+[1s] 6162 multiplier blocks folded into 4892 keys (mu = 1.9821e-11)
+[130s] block terms done
+[131s] objective/trace terms done
+[801s] equality multipliers: rank 613, |Eraw^T lam - e_y| 8.15e-14
+[802s] equality terms done
+[804s] family 31: 6892 orbits; S0 3.612e-06 (rounding 3.4e-06), S1 2.568e+03 (rounding 1.4e-05), S2 9.400e+08
+[805s] family 22: 14837 orbits; S0 6.180e-06 (rounding 5.7e-06), S1 3.459e+03 (rounding 5.5e-05), S2 6.289e+09
+[807s] family 13: 6892 orbits; S0 3.447e-06 (rounding 3.2e-06), S1 2.194e+03 (rounding 9.9e-06), S2 7.703e+08
+[807s] UNIFORM BOUND on [0, s0 = 8.000e-10] (d >= 1.25e+09): LK <= 2.75556; S0 1.3239e-05 + s0 S1 6.5770e-06 + s0^2 S2 5.1197e-09 = 1.9822e-05; gamma - LK * total = 4.538029e-05

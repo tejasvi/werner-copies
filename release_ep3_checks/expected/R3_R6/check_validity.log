@@ -1,0 +1,109 @@
+A. block maps
+  row-pattern sets in certfile4 files: 15
+     ('a a a b',)
+     ('a a a b*',)
+     ('a a a* b*', 'a b b* b*')
+     ('a a b a*', 'b b a b*')
+     ('a a b b',)
+     ('a a b* b',)
+     ('a* a a b',)
+     ('a* a b b',)
+     ('a* a b* b',)
+     ('a* a* a b',)
+     ('a* a* b b',)
+     ('b b b a',)
+     ('b b b a*',)
+     ('b* b b a',)
+     ('b* b* b a',)
+  n=2 V_p: v4 perm_op, dim perm_op, product action               max err 1.99e-15  ok
+  n=2 v4 entry_rule: entry(Y_f) == |u_r><u_s| (all pairs)        max err 9.18e-16  ok
+  n=2 v4 entry_op(V_p) == dense rule(V_p), all p, all pairs      max err 0.00e+00  ok
+  n=2 source PT: Y_f^Gamma_T == |w><w| (3 families x 16 cuts)    max err 9.25e-16  ok
+  n=2 v2 perm_op(n,p,cut) == dense PT(V_p) (dim + cert v2)       max err 0.00e+00  ok
+  n=2 Zenodo Gram: A(Y31)=uu*, B(Y22)=uv*, D(Y13)=vv*            max err 9.18e-16  ok
+  n=2 v2 Gram maps A (tau p tau, cut 3), B == dense, all p       max err 0.00e+00  ok
+  n=2 gram2: A2(Y31)=u'u'*, B2(Y22)=u'v''*, D2(Y13)=v''v''*      max err 9.05e-16  ok
+  n=2 dim gram2 literal ops A2, B2, D2 == dense rules, all p     max err 0.00e+00  ok
+  n=2 Zenodo block == |w><w|; min eig -1.3e-16                   max err 9.18e-16  ok
+  n=2 gram2 block == |w><w|; min eig -6.9e-17                    max err 9.05e-16  ok
+  n=3 V_p: v4 perm_op, dim perm_op, product action               max err 7.11e-15  ok
+  n=3 v4 entry_rule: entry(Y_f) == |u_r><u_s| (all pairs)        max err 3.42e-13  ok
+  n=3 v4 entry_op(V_p) == dense rule(V_p), all p, all pairs      max err 0.00e+00  ok
+  n=3 source PT: Y_f^Gamma_T == |w><w| (3 families x 16 cuts)    max err 3.42e-13  ok
+  n=3 v2 perm_op(n,p,cut) == dense PT(V_p) (dim + cert v2)       max err 0.00e+00  ok
+  n=3 Zenodo Gram: A(Y31)=uu*, B(Y22)=uv*, D(Y13)=vv*            max err 2.28e-13  ok
+  n=3 v2 Gram maps A (tau p tau, cut 3), B == dense, all p       max err 0.00e+00  ok
+  n=3 gram2: A2(Y31)=u'u'*, B2(Y22)=u'v''*, D2(Y13)=v''v''*      max err 3.42e-13  ok
+  n=3 dim gram2 literal ops A2, B2, D2 == dense rules, all p     max err 0.00e+00  ok
+  n=3 Zenodo block == |w><w|; min eig -8.8e-16                   max err 2.28e-13  ok
+  n=3 gram2 block == |w><w|; min eig -1.1e-15                    max err 3.42e-13  ok
+B. equalities
+  n=2 verifiers partial_trace_replica == dense Tr_slot (all orders) max err 0.00e+00  ok
+  n=3 verifiers partial_trace_replica == dense Tr_slot (all orders) max err 0.00e+00  ok
+  n=2 'stiefel_aux' map == 2 V_p - I_slot (x) Tr_slot V_p        max err 0.00e+00  ok
+  dH=2 rank 2: Stiefel contrasts at all a-slots vanish           max err 5.55e-17  ok
+  dH=2 rank 2: contrasts at b-slots are NONZERO (min max-entry 5.07e-02) -> slot audit needed
+  dH=2 rank 2: marginals aab, abb equal; traces 1                max err 1.44e-15  ok
+  dH=2 rank 1: Stiefel contrasts at all a-slots vanish           max err 2.79e-17  ok
+  dH=2 rank 1: contrasts at b-slots are NONZERO (min max-entry 2.19e-02) -> slot audit needed
+  dH=2 rank 1: marginals aab, abb equal; traces 1                max err 2.00e-15  ok
+  dH=3 rank 2: Stiefel contrasts at all a-slots vanish           max err 1.41e-17  ok
+  dH=3 rank 2: contrasts at b-slots are NONZERO (min max-entry 3.00e-02) -> slot audit needed
+  dH=3 rank 2: marginals aab, abb equal; traces 1                max err 3.44e-15  ok
+  dH=3 rank 1: Stiefel contrasts at all a-slots vanish           max err 1.67e-16  ok
+  dH=3 rank 1: contrasts at b-slots are NONZERO (min max-entry 2.97e-02) -> slot audit needed
+  dH=3 rank 1: marginals aab, abb equal; traces 1                max err 1.67e-15  ok
+C. objective and lifting, k = 3
+  d=3 lifting: A*A=I, |a|=|b|=1, C=AB*/2, Tr_H Pa=I/2            max err 7.77e-16  ok
+  d=3 swap identity <ab|F_Q F_S|ab> = ||Tr_S C||^2 (8 S)         max err 6.66e-16  ok
+  d=3 c=<ab|Z|ab> == q_3 (partial traces) == qform.qval          max err 4.44e-16  ok
+      q_3 values: 0.2936, 0.2967, 0.2950, 0.0000, 0.1250
+  d=4 lifting: A*A=I, |a|=|b|=1, C=AB*/2, Tr_H Pa=I/2            max err 8.88e-16  ok
+  d=4 swap identity <ab|F_Q F_S|ab> = ||Tr_S C||^2 (8 S)         max err 5.00e-16  ok
+  d=4 c=<ab|Z|ab> == q_3 (partial traces) == qform.qval          max err 4.44e-16  ok
+      q_3 values: 0.3322, 0.3359, 0.3313, 0.0000, 0.1250
+  d=5 lifting: A*A=I, |a|=|b|=1, C=AB*/2, Tr_H Pa=I/2            max err 8.88e-16  ok
+  d=5 swap identity <ab|F_Q F_S|ab> = ||Tr_S C||^2 (8 S)         max err 6.11e-16  ok
+  d=5 c=<ab|Z|ab> == q_3 (partial traces) == qform.qval          max err 4.44e-16  ok
+      q_3 values: 0.3645, 0.3660, 0.3645, 0.0000, 0.1250
+  d=6 lifting: A*A=I, |a|=|b|=1, C=AB*/2, Tr_H Pa=I/2            max err 8.88e-16  ok
+  d=6 swap identity <ab|F_Q F_S|ab> = ||Tr_S C||^2 (8 S)         max err 4.44e-16  ok
+  d=6 c=<ab|Z|ab> == q_3 (partial traces) == qform.qval          max err 2.78e-16  ok
+      q_3 values: 0.3828, 0.3841, 0.3884, 0.0000, 0.1250
+  d=7 lifting: A*A=I, |a|=|b|=1, C=AB*/2, Tr_H Pa=I/2            max err 8.88e-16  ok
+  d=7 swap identity <ab|F_Q F_S|ab> = ||Tr_S C||^2 (8 S)         max err 7.77e-16  ok
+  d=7 c=<ab|Z|ab> == q_3 (partial traces) == qform.qval          max err 6.66e-16  ok
+      q_3 values: 0.4014, 0.4029, 0.4008, 0.0000, 0.1250
+  d=8 lifting: A*A=I, |a|=|b|=1, C=AB*/2, Tr_H Pa=I/2            max err 6.66e-16  ok
+  d=8 swap identity <ab|F_Q F_S|ab> = ||Tr_S C||^2 (8 S)         max err 7.77e-16  ok
+  d=8 c=<ab|Z|ab> == q_3 (partial traces) == qform.qval          max err 7.22e-16  ok
+      q_3 values: 0.4106, 0.4122, 0.4126, 0.0000, 0.1250
+D. verifiers objective word formula
+  n=2 2TrV_p - TrV_(swap p) == 2Tr[(I-F03/2)V_p]; TrV_(swap p)==Tr[F03 V_p] max err 0.00e+00  ok
+  n=3 2TrV_p - TrV_(swap p) == 2Tr[(I-F03/2)V_p]; TrV_(swap p)==Tr[F03 V_p] max err 0.00e+00  ok
+  k=1: Tr[Z_03 (V_ps (x) V_pq)] == (zs * za)/2^k (40 random words) max err 0.00e+00  ok
+E. audit of certificate data
+  cert/runs/certfile_k3_d3.pkl                 d= 3 blocks  715, eq groups ['aab', 'abb', 'stiefel13', 'stiefel22', 'stiefel31'] : ok
+  cert/runs/certfile_k3_d4.pkl                 d= 4 blocks 1237, eq groups ['aab', 'abb', 'stiefel13', 'stiefel22', 'stiefel31'] : ok
+  cert/runs/vm_certs/certfile4_k3_d10.pkl      d=10 blocks 1347, eq groups ['aab', 'abb', 'stiefel13', 'stiefel22', 'stiefel31'] : ok
+  cert/runs/vm_certs/certfile4_k3_d12.pkl      d=12 blocks 1347, eq groups ['aab', 'abb', 'stiefel13', 'stiefel22', 'stiefel31'] : ok
+  cert/runs/vm_certs/certfile4_k3_d16.pkl      d=16 blocks 1347, eq groups ['aab', 'abb', 'stiefel13', 'stiefel22', 'stiefel31'] : ok
+  cert/runs/vm_certs/certfile4_k3_d5.pkl       d= 5 blocks 1347, eq groups ['aab', 'abb', 'stiefel13', 'stiefel22', 'stiefel31'] : ok
+  cert/runs/vm_certs/certfile4_k3_d6.pkl       d= 6 blocks 1347, eq groups ['aab', 'abb', 'stiefel13', 'stiefel22', 'stiefel31'] : ok
+  cert/runs/vm_certs/certfile4_k3_d7.pkl       d= 7 blocks 1347, eq groups ['aab', 'abb', 'stiefel13', 'stiefel22', 'stiefel31'] : ok
+  cert/runs/vm_certs/certfile4_k3_d8.pkl       d= 8 blocks 1347, eq groups ['aab', 'abb', 'stiefel13', 'stiefel22', 'stiefel31'] : ok
+  cert/runs/vm_certs/certfile4_k3_d9.pkl       d= 9 blocks 1347, eq groups ['aab', 'abb', 'stiefel13', 'stiefel22', 'stiefel31'] : ok
+  dim/runs/certfile2_k3_d10.pkl                d=10 blocks 1342, eq groups ['aab', 'abb', 'stiefel13', 'stiefel22', 'stiefel31'] : ok
+  dim/runs/certfile2_k3_d11.pkl                d=11 blocks 1342, eq groups ['aab', 'abb', 'stiefel13', 'stiefel22', 'stiefel31'] : ok
+  dim/runs/certfile2_k3_d12.pkl                d=12 blocks 1342, eq groups ['aab', 'abb', 'stiefel13', 'stiefel22', 'stiefel31'] : ok
+  dim/runs/certfile2_k3_d13.pkl                d=13 blocks 1342, eq groups ['aab', 'abb', 'stiefel13', 'stiefel22', 'stiefel31'] : ok
+  dim/runs/certfile2_k3_d14.pkl                d=14 blocks 1342, eq groups ['aab', 'abb', 'stiefel13', 'stiefel22', 'stiefel31'] : ok
+  dim/runs/certfile2_k3_d15.pkl                d=15 blocks 1342, eq groups ['aab', 'abb', 'stiefel13', 'stiefel22', 'stiefel31'] : ok
+  dim/runs/certfile2_k3_d16.pkl                d=16 blocks 1342, eq groups ['aab', 'abb', 'stiefel13', 'stiefel22', 'stiefel31'] : ok
+  dim/runs/certfile2_k3_d5.pkl                 d= 5 blocks 1342, eq groups ['aab', 'abb', 'stiefel13', 'stiefel22', 'stiefel31'] : ok
+  dim/runs/certfile2_k3_d6.pkl                 d= 6 blocks 1342, eq groups ['aab', 'abb', 'stiefel13', 'stiefel22', 'stiefel31'] : ok
+  dim/runs/certfile2_k3_d7.pkl                 d= 7 blocks 1342, eq groups ['aab', 'abb', 'stiefel13', 'stiefel22', 'stiefel31'] : ok
+  dim/runs/certfile2_k3_d8.pkl                 d= 8 blocks 1342, eq groups ['aab', 'abb', 'stiefel13', 'stiefel22', 'stiefel31'] : ok
+  dim/runs/certfile2_k3_d9.pkl                 d= 9 blocks 1342, eq groups ['aab', 'abb', 'stiefel13', 'stiefel22', 'stiefel31'] : ok
+  block kinds of the last file: [(('gram', None, '3'), 111), (('gram2', None, '2,3'), 105), (('src', '13', ''), 88), (('src', '13', '0'), 105), (('src', '13', '0,1'), 65), (('src', '13', '3'), 77), (('src', '22', ''), 101), (('src', '22', '0'), 106), (('src', '22', '0,1'), 31), (('src', '22', '0,2'), 113), (('src', '22', '2'), 106), (('src', '31', ''), 88), (('src', '31', '0'), 105), (('src', '31', '0,1'), 64), (('src', '31', '3'), 77)]
+ALL CHECKS PASS

@@ -1,0 +1,18 @@
+[5s] digits built
+[53s] family 31: 11 generator maps ['site(0,1)', 'site(1,2)', 'site(2,3)', 'site(3,4)', 'L(0, 2, 1, 3)', 'R(0, 2, 1, 3)', 'L(1, 0, 2, 3)', 'R(1, 0, 2, 3)', 'L(2, 1, 0, 3)', 'R(2, 1, 0, 3)', 'inv']
+[60s]   pass 1: 191047786 labels changed
+[67s]   pass 2: 36526248 labels changed
+[72s]   pass 3: 40608 labels changed
+[78s]   pass 4: 0 labels changed
+[94s] family 31: 36195 orbits (Burnside 36195, |L_f| = 72, |H_f| = 8640), max size 8640, min size 6; saved
+[131s] family 22: 9 generator maps ['site(0,1)', 'site(1,2)', 'site(2,3)', 'site(3,4)', 'L(1, 0, 2, 3)', 'R(1, 0, 2, 3)', 'L(0, 1, 3, 2)', 'R(0, 1, 3, 2)', 'inv']
+[137s]   pass 1: 191001355 labels changed
+[142s]   pass 2: 23527944 labels changed
+[146s]   pass 3: 0 labels changed
+[161s] family 22: 79245 orbits (Burnside 79245, |L_f| = 32, |H_f| = 3840), max size 3840, min size 4; saved
+[209s] family 13: 11 generator maps ['site(0,1)', 'site(1,2)', 'site(2,3)', 'site(3,4)', 'L(0, 2, 1, 3)', 'R(0, 2, 1, 3)', 'L(1, 0, 2, 3)', 'R(1, 0, 2, 3)', 'L(2, 1, 0, 3)', 'R(2, 1, 0, 3)', 'inv']
+[216s]   pass 1: 191047786 labels changed
+[222s]   pass 2: 36526248 labels changed
+[228s]   pass 3: 40608 labels changed
+[233s]   pass 4: 0 labels changed
+[250s] family 13: 36195 orbits (Burnside 36195, |L_f| = 72, |H_f| = 8640), max size 8640, min size 6; saved

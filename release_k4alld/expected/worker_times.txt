@@ -1,0 +1,4 @@
+exact-worker jobs (verify/exact_worker.py, 18 primes x 3 key-chunks): 54 jobs
+per-job wall time with all 54 jobs running concurrently: min 693 s, median 860 s, max 951 s, mean 856 s
+sum of per-job wall times: 46235 s (12.8 h); whole run_all.sh: 18 min 26 s wall, 46400 s CPU (user 29560 s + sys 16840 s)
+peak memory: about 0.9 GB per exact-worker job; at most 3.9 GB for any single step

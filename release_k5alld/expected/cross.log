@@ -1,0 +1,22 @@
+[5s] k = 5: 2358720 class points; orbits {'31': 36195, '22': 79245, '13': 36195}
+[5s] blocks: 11409, raw factors rounded to 2^-66 (max |M| 1.163e-01)
+[5s] 5627 block keys
+[6s] equality multipliers on literal ancilla rows, rounded to 2^-69
+[6s] Den = 2^132 * 3125 (144 bits); 11 primes < 2^20; 12 tasks on 12 processes
+   prime 1048391 done in 1288s
+   prime 1048447 done in 1300s
+   prime 1048571 done in 1301s
+   shadow done in 1305s
+   prime 1048507 done in 1318s
+   prime 1048573 done in 1325s
+   prime 1048549 done in 1344s
+   prime 1048423 done in 1445s
+   prime 1048559 done in 1452s
+   prime 1048387 done in 1462s
+   prime 1048433 done in 1466s
+   prime 1048517 done in 1483s
+[1488s] modular orbit sums (11 primes) and float shadow done; S2 majorant 1.1540e+12
+[1489s] family 31: 36195 orbits, EXACT S0 = 1.215431e-10 (max orbit 2.100e-14), S1 = 6.306295e+03
+[1491s] family 22: 79245 orbits, EXACT S0 = 8.295730e-11 (max orbit 1.514e-14), S1 = 6.333547e+04
+[1492s] family 13: 36195 orbits, EXACT S0 = 1.805420e-11 (max orbit 1.288e-14), S1 = 7.636933e+03
+[1492s] EXACT: ||G_a^+||_inf = 31/180; LK <= 2.755556 for d >= 10000000000; S0 2.225546e-10 + s0 S1 7.727870e-06 + s0^2 S2 1.153988e-08; nu - LK total = 9.786730e-04  => PASS

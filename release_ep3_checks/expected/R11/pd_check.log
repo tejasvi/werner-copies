@@ -1,0 +1,9 @@
+runs/cert2_k3_d6.pkl: d=6, 1342 multipliers, consistent=True, strictly PD failures: 0
+runs/cert2_k3_d9.pkl: d=9, 1342 multipliers, consistent=True, strictly PD failures: 0
+runs/cert2_k3_d10.pkl: d=10, 1342 multipliers, consistent=True, strictly PD failures: 0
+runs/cert2_k3_d11.pkl: d=11, 1342 multipliers, consistent=True, strictly PD failures: 0
+runs/cert2_k3_d12.pkl: d=12, 1342 multipliers, consistent=True, strictly PD failures: 0
+runs/cert2_k3_d13.pkl: d=13, 1342 multipliers, consistent=True, strictly PD failures: 0
+runs/cert2_k3_d14.pkl: d=14, 1342 multipliers, consistent=True, strictly PD failures: 0
+runs/cert2_k3_d15.pkl: d=15, 1342 multipliers, consistent=True, strictly PD failures: 0
+runs/cert2_k3_d16.pkl: d=16, 1342 multipliers, consistent=True, strictly PD failures: 0

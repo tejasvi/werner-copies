@@ -1,0 +1,5 @@
+[0s] 28 evaluation points (se): nodes 23135073267/10^15 ... 58777259265229/10^15; uniform_verify grid value recomputed from them: 3.4895 (its log: 3.4895)
+[0s] 28 evaluation points (se): certified sup Lambda <= 3.083926 (lower bound 3.083925), highest on [5.877e-02, 5.882e-02]; 983 enclosures, 492 subintervals, smallest width 1.44e-05; < 3.4895
+[0s] 16 Chebyshev nodes (cm): nodes 141625686111/10^15 ... 14670475931413/10^15; uniform_verify grid value recomputed from them: 3.0645 (its log: 3.0645)
+[1s] 16 Chebyshev nodes (cm): certified sup Lambda <= 2.727778 (lower bound 2.727777), highest on [5.859e-02, 5.882e-02]; 431 enclosures, 216 subintervals, smallest width 5.74e-05; < 3.0645
+[1s] LEBESGUE BOUNDS CERTIFIED: both constants used by uniform_verify.py hold

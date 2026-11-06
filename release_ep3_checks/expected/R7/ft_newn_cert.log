@@ -1,0 +1,7 @@
+n=18: ExactLocal(n,4,cut) == FT_poly(n) all cuts: True; ExactLocal(n,3,()) == ExactLocal(6,3,()): True (28s)
+n=21: ExactLocal(n,4,cut) == FT_poly(n) all cuts: True; ExactLocal(n,3,()) == ExactLocal(6,3,()): True (56s)
+n=22: ExactLocal(n,4,cut) == FT_poly(n) all cuts: True; ExactLocal(n,3,()) == ExactLocal(6,3,()): True (50s)
+n=24: ExactLocal(n,4,cut) == FT_poly(n) all cuts: True; ExactLocal(n,3,()) == ExactLocal(6,3,()): True (55s)
+n=25: ExactLocal(n,4,cut) == FT_poly(n) all cuts: True; ExactLocal(n,3,()) == ExactLocal(6,3,()): True (65s)
+n=26: ExactLocal(n,4,cut) == FT_poly(n) all cuts: True; ExactLocal(n,3,()) == ExactLocal(6,3,()): True (59s)
+n=30: ExactLocal(n,4,cut) == FT_poly(n) all cuts: True; ExactLocal(n,3,()) == ExactLocal(6,3,()): True (107s)

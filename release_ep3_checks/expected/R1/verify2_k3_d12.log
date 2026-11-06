@@ -1,0 +1,9 @@
+[0s] k=3 d=12, 1342 multipliers, 272 equality multipliers
+[38s] PSD check: 0 failures
+[57s] orbits: {'31': 1142, '22': 2391, '13': 1142}
+[2678s] block tables computed and orbit-summed
+[2818s] equality and objective tables computed and orbit-summed
+[2818s] family 31: orbits 1142, nonzero orbit sums 0
+[2818s] family 22: orbits 2391, nonzero orbit sums 0
+[2818s] family 13: orbits 1142, nonzero orbit sums 0
+[2818s] EXACT_CERTIFICATE_PASS

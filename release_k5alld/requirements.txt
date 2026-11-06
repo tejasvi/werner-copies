@@ -1,0 +1,4 @@
+numpy>=2
+scipy
+sympy
+python-flint==0.9.0   # only for crosscheck/verify_alld_k.py (RUN_CROSS=1)

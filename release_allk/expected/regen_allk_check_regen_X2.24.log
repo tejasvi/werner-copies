@@ -1,0 +1,1 @@
+allk_k5_X2.24.json: X = 56/25 J = 14 k0 = 9 K = 5450 | (A) k = 9..13 min slack 1.8746e-03 | (B) 5437 k, 4286 per-k fixes, min slack 9.2016e-07 | (C) 8.7621e-07 > 0 | ALL CHECKS PASS: q_k(56/25/k) >= 0 for every k >= 9

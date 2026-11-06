@@ -1,0 +1,17 @@
+name = "npt"
+version = "1.0.0"
+defaultTargets = ["NPT"]
+
+[leanOptions]
+maxHeartbeats = 400000
+# helps under address-space limits (the kernel checks need up to ~100 GiB each)
+Elab.async = false
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.35.0"
+
+[[lean_lib]]
+name = "NPT"
+roots = ["NPT", "NPT.Final", "NPT.Check", "NPT.Cert.EP3_d3", "NPT.Cert.EP3D4.EP3", "NPT.Cert.EP3D5.EP3", "NPT.Cert.EP3D6.EP3", "NPT.Cert.EP3D7.EP3", "NPT.Cert.EP3D8.EP3", "NPT.Axioms"]

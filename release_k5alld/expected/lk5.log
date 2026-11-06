@@ -1,0 +1,8 @@
+rank G_a = 14
+||G_a^+||_inf = 31/180 = 0.17222222222222222
+cycle counts of non-identity permutations: {3: 6, 2: 11, 1: 6}
+LK(s0 = 1/10000000000) <= exact rational = 2.755555563822
+n = 4: n^4 ||G_site^-1||_inf = 10.666667, Neumann bound n/a OK
+n = 5: n^4 ||G_site^-1||_inf = 5.208333, Neumann bound n/a OK
+n = 7: n^4 ||G_site^-1||_inf = 2.858333, Neumann bound n/a OK
+n = 11: n^4 ||G_site^-1||_inf = 1.848611, Neumann bound 2.784519 OK

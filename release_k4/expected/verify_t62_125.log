@@ -1,0 +1,52 @@
+[0s] k=4 d=3 t=62/125 nu=218146045460530894878553/618970019642690137449562112 (3.524339e-04); 3816 multiplier blocks, 5 equality groups
+[8s] orbits: {'13': 6892, '22': 14837, '31': 6892}
+[9s] PSD check: 0 failures over 3816 blocks
+[19s] multiplier part: |orbit sums| < 2^240 -> 13 primes; Dblk has 225 bits
+[40s] prime 1048573 done
+[66s] prime 1048571 done
+[91s] prime 1048559 done
+[114s] prime 1048549 done
+[134s] prime 1048517 done
+[162s] prime 1048507 done
+[190s] prime 1048447 done
+[209s] prime 1048433 done
+[230s] prime 1048423 done
+[258s] prime 1048391 done
+[283s] prime 1048387 done
+[314s] prime 1048367 done
+[332s] prime 1048361 done
+[335s] objective and trace orbit sums done
+[343s] equality group aab done
+[352s] equality group abb done
+[360s] equality group stiefel13 done
+[366s] equality group stiefel22 done
+[374s] equality group stiefel31 done
+[374s] family 13: 6892 orbits, ||R_f||_1 = 2.965419e-16
+[374s] family 22: 14837 orbits, ||R_f||_1 = 1.672324e-15
+[374s] family 31: 6892 orbits, ||R_f||_1 = 2.240264e-16
+[374s] Gram ranks: n=3 -> 23, n=2 -> 14; ||G_s^+||_inf = 131/1440, ||G_a^+||_inf = 31/180; K = 1.179572e-05, L = 688747536
+[374s] sum_f ||R_f||_1 = 2.192892e-15;  L K sum = 1.781565e-11  vs  nu = 3.524339e-04  (ratio nu / (L K sum) = 1.978e+07)
+[374s] SLACK_CERTIFICATE_PASS
+	Command being timed: "python -I verify_cert5.py t0.496/cert_l1.pkl.xz --procs 24"
+	User time (seconds): 6055.76
+	System time (seconds): 1201.68
+	Percent of CPU this job got: 1940%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 6:13.97
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2278672
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 79610470
+	Voluntary context switches: 43167
+	Involuntary context switches: 15986
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 104
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

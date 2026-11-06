@@ -1,0 +1,1 @@
+tau generators: 107 x 4675, exact rank over Q = 107 (stored 107); kinds: [('dense', 1, 'Da'), ('dense', 1, 'Db'), ('dense', 1, 'tau'), ('dense', 2, 'Da'), ('dense', 2, 'Db'), ('dense', 2, 'tau'), ('dense', 3, 'Da'), ('dense', 3, 'Db'), ('dense', 3, 'tau'), ('j1fact', None, 'Da'), ('j1fact', None, 'Db'), ('j1fact', None, 'tau')]

@@ -1,0 +1,18 @@
+b_check_v2.py
+P1 bt_r formula vs exact series of log E_k (k = 12, 40, 200; eps = 1/200, 1/1000; r <= 40): max |diff|/(|part1|+|part2|) = 1.36e-49; L_1 = 0 exactly
+P1 negative bt_r with r <= k (expected only for k < 40): [(12, Fraction(1, 200), 11), (12, Fraction(1, 200), 12), (12, Fraction(1, 1000), 1), (40, Fraction(1, 1000), 1), (200, Fraction(1, 1000), 1)]
+P2 Claim 1 exact: min r F(r,40) over 2 <= r <= 40 >= 3.647620 (at r = 40); min r F(r,r) over 40 < r <= 300 >= 3.722855 (at r = 41)   [0.7s]
+P3 s = 5.2: r = 301: subtracted terms <= [0.96449798012106446876, 0.96449798012106446876], so r F(r,r) >= [4.0355020198789350871, 4.0355020198789350871]; ratio (5/s) = [0.9615384615384616751, 0.9615384615384616751] < 1
+P3 s = 5.25: r = 301: subtracted terms <= [0.073367916164069485463, 0.073367916164069485463], so r F(r,r) >= [4.9266320838359298762, 4.9266320838359298762]; ratio (5/s) = [0.95238095238095243911, 0.95238095238095243911] < 1
+P3 s = 5.28: r = 301: subtracted terms <= [0.017858439072281805798, 0.017858439072281805798], so r F(r,r) >= [4.9821415609277179826, 4.9821415609277179826]; ratio (5/s) = [0.94696969696969712782, 0.94696969696969712782] < 1
+P3 monotone: r q^r decreases for r > 1/log(1/q) = 18.353 (q = 5/5.28); r (5/r)^r decreases for r >= 5
+P4 Cz = 2(1+tau)^5 z^4 (1-tau z)^-10 e^{-10 tau z} in [[21176.264573055839719, 21176.264573055839719], [21176.264573056152585, 21176.264573056152585]]  (< 21177: True)
+P5 eps = 1/200: K = 33, K* = 45, K** = 47
+P5 eps = 1/10000: K = 41, K* = 45, K** = 47
+P5 eps = 1/100000: K = 46, K* = 46, K** = 48
+P5 eps = 1/1000000: K = 51, K* = 51, K** = 53
+P5 step (5) bookkeeping: 223184 (k, j) pairs checked, 0 uncovered   [3.1s]
+P6 k = 30 eps = 1/200: min_r bt_r = 3.8729e-12; sum_j |Rem_j| = 2.8267e-6; q_k(x/k) >= eps + Rem_0 + 2 sum min(0, Rem_j) = 0.0049977644; Chernoff bound eps - Cz z^-k = -0.0109318
+P6 k = 40 eps = 1/500: min_r bt_r = 1.6793e-15; sum_j |Rem_j| = 6.404e-9; q_k(x/k) >= eps + Rem_0 + 2 sum min(0, Rem_j) = 0.0019999959; Chernoff bound eps - Cz z^-k = 0.0018551
+P6 k = 60 eps = 1/200: min_r bt_r = 1.2165e-22; sum_j |Rem_j| = 3.5761e-15; q_k(x/k) >= eps + Rem_0 + 2 sum min(0, Rem_j) = 0.005; Chernoff bound eps - Cz z^-k = 0.00499999
+B_CHECK DONE  [3.7s]

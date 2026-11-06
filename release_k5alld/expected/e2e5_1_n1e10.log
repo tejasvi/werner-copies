@@ -1,0 +1,21 @@
+[0s] point: A*A = I/2, ||a||^2 = 1.000000, ||b||^2 = 1.000000, q_5(9/20, C) = 1.851157948e-01
+[5s] n=1e+10    (1) 16n^20 c(x) = 1.851157948294e-01  q5 ||a||^4 = 1.851157948294e-01  rel.err 1.3e-15
+[5s]            (2) 16n^20 tau(x) = 1.000000000000e+00  (Tr X_31 = 1)
+[305s]            (3) family 31: max|xhat| = 3.645833e-02 <= LK(n)/16 = 1.722222e-01  OK
+[585s]            (3) family 22: max|xhat| = 3.633251e-02 <= LK(n)/16 = 1.722222e-01  OK
+[856s]            (3) family 13: max|xhat| = 3.608087e-02 <= LK(n)/16 = 1.722222e-01  OK
+[857s]            (4) max |E(x)| over all literal equality rows = 2.720e-15 (part scale 1.000e+00)
+[857s]            (5) key 0/5627
+[874s]            (5) key 500/5627
+[925s]            (5) key 1000/5627
+[943s]            (5) key 1500/5627
+[957s]            (5) key 2000/5627
+[979s]            (5) key 2500/5627
+[1006s]            (5) key 3000/5627
+[1246s]            (5) key 3500/5627
+[1261s]            (5) key 4000/5627
+[1293s]            (5) key 4500/5627
+[1346s]            (5) key 5000/5627
+[1369s]            (5) key 5500/5627
+[1394s]            (5) 5627 keys: raw blocks with min eig < -1e-12 scale: 0 (min eig/scale = -1.332e-14 over keys with n_raw <= 1100); min <Q,M>/(|Q|_1 scale) = -9.996e-20 (must be >= -1e-12)
+[1394s] ALL CHECKS PASSED (seed 1)

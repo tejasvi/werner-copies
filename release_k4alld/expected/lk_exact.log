@@ -1,0 +1,8 @@
+rank Ga 14
+||Ga^+||_inf = 31/180 = 0.17222222222222222
+cycle counts of non-identity perms {3: 6, 2: 11, 1: 6}
+LK(n0) exact bound = 2.755555608462223
+n 4 n^4||Gsite^-1||_inf = 10.666666666666666  Neumann bound n/a  ok
+n 5 n^4||Gsite^-1||_inf = 5.208333333333333  Neumann bound n/a  ok
+n 7 n^4||Gsite^-1||_inf = 2.8583333333333334  Neumann bound n/a  ok
+n 11 n^4||Gsite^-1||_inf = 1.8486111111111112  Neumann bound 2.784518828451883  ok

@@ -1,0 +1,7 @@
+family 31: orbits 1142, rank mod p 667, rank over Q 667 -> kernel 475
+family 22: orbits 2391, rank mod p 1407, rank over Q 1407 -> kernel 984
+family 13: orbits 1142, rank mod p 667, rank over Q 667 -> kernel 475
+F_const dimension = 1934
+ancilla Gram rank 14; FT_a annihilates ker(Ga) for all cuts: True
+equality ancilla factors annihilate ker(Ga): True
+objective ancilla factor annihilates ker(Ga): True

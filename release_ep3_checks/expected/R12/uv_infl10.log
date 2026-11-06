@@ -1,0 +1,66 @@
+[1s] node 7061: float residual |c - A x| = 8.810e-11
+[1s] node 790: float residual |c - A x| = 9.618e-11
+[2s] node 288: float residual |c - A x| = 6.184e-11
+[3s] node 150: float residual |c - A x| = 7.769e-11
+[4s] node 93: float residual |c - A x| = 7.312e-11
+[5s] node 64: float residual |c - A x| = 7.058e-11
+[6s] node 48: float residual |c - A x| = 1.016e-10
+[7s] node 38: float residual |c - A x| = 5.313e-11
+[7s] node 31: float residual |c - A x| = 6.643e-11
+[8s] node 26: float residual |c - A x| = 5.077e-11
+[9s] node 23: float residual |c - A x| = 6.226e-11
+[10s] node 21: float residual |c - A x| = 7.988e-11
+[11s] node 20: float residual |c - A x| = 4.828e-11
+[12s] node 19: float residual |c - A x| = 6.375e-11
+[12s] node 18: float residual |c - A x| = 5.600e-11
+[13s] node 17: float residual |c - A x| = 4.811e-11
+[70s] pseudo-inverses at 16 Chebyshev nodes: max ||M_k||_F 6.529e+04
+[70s] Lebesgue(M nodes) 3.0645 -> Mmax 2.001e+05 ; Lebesgue(integer data nodes) 41.8417
+[70s] Lebesgue(28 eval points) 3.4895
+[76s] s = 4.627015e-05 (n 21612.2): ||r_R|| <= 6.548e-09 (float 9.299e-11) ; ||G||_2 <= 3.799e-05
+[82s] s = 4.155583e-04 (n 2406.4): ||r_R|| <= 6.740e-09 (float 3.548e-11) ; ||G||_2 <= 4.111e-05
+[88s] s = 1.149491e-03 (n 870.0): ||r_R|| <= 4.954e-09 (float 7.233e-11) ; ||G||_2 <= 2.587e-05
+[93s] s = 2.238837e-03 (n 446.7): ||r_R|| <= 7.075e-09 (float 6.920e-11) ; ||G||_2 <= 4.320e-05
+[99s] s = 3.669899e-03 (n 272.5): ||r_R|| <= 4.852e-09 (float 4.888e-11) ; ||G||_2 <= 2.511e-05
+[105s] s = 5.424680e-03 (n 184.3): ||r_R|| <= 6.750e-09 (float 4.788e-11) ; ||G||_2 <= 4.033e-05
+[111s] s = 7.481113e-03 (n 133.7): ||r_R|| <= 5.985e-09 (float 7.341e-11) ; ||G||_2 <= 3.375e-05
+[117s] s = 9.813336e-03 (n 101.9): ||r_R|| <= 5.991e-09 (float 6.881e-11) ; ||G||_2 <= 3.359e-05
+[123s] s = 1.239202e-02 (n 80.7): ||r_R|| <= 6.713e-09 (float 5.732e-11) ; ||G||_2 <= 3.925e-05
+[129s] s = 1.518474e-02 (n 65.9): ||r_R|| <= 4.917e-09 (float 6.077e-11) ; ||G||_2 <= 2.458e-05
+[135s] s = 1.815637e-02 (n 55.1): ||r_R|| <= 6.703e-09 (float 4.102e-11) ; ||G||_2 <= 3.933e-05
+[140s] s = 2.126954e-02 (n 47.0): ||r_R|| <= 4.766e-09 (float 8.291e-11) ; ||G||_2 <= 2.317e-05
+[146s] s = 2.448511e-02 (n 40.8): ||r_R|| <= 6.337e-09 (float 6.764e-11) ; ||G||_2 <= 3.615e-05
+[152s] s = 2.776263e-02 (n 36.0): ||r_R|| <= 6.102e-09 (float 3.622e-11) ; ||G||_2 <= 3.342e-05
+[158s] s = 3.106090e-02 (n 32.2): ||r_R|| <= 5.871e-09 (float 5.268e-11) ; ||G||_2 <= 3.192e-05
+[164s] s = 3.433842e-02 (n 29.1): ||r_R|| <= 7.071e-09 (float 5.313e-11) ; ||G||_2 <= 3.976e-05
+[169s] s = 3.755399e-02 (n 26.6): ||r_R|| <= 5.727e-09 (float 3.810e-11) ; ||G||_2 <= 2.774e-05
+[175s] s = 4.066716e-02 (n 24.6): ||r_R|| <= 6.665e-09 (float 6.026e-11) ; ||G||_2 <= 3.578e-05
+[181s] s = 4.363879e-02 (n 22.9): ||r_R|| <= 4.445e-09 (float 4.861e-11) ; ||G||_2 <= 1.894e-05
+[187s] s = 4.643151e-02 (n 21.5): ||r_R|| <= 5.847e-09 (float 6.843e-11) ; ||G||_2 <= 2.922e-05
+[193s] s = 4.901019e-02 (n 20.4): ||r_R|| <= 4.995e-09 (float 3.936e-11) ; ||G||_2 <= 2.291e-05
+[199s] s = 5.134242e-02 (n 19.5): ||r_R|| <= 6.282e-09 (float 4.674e-11) ; ||G||_2 <= 2.905e-05
+[204s] s = 5.339885e-02 (n 18.7): ||r_R|| <= 8.831e-09 (float 8.245e-11) ; ||G||_2 <= 4.239e-05
+[210s] s = 5.515363e-02 (n 18.1): ||r_R|| <= 9.715e-09 (float 6.660e-11) ; ||G||_2 <= 4.291e-05
+[216s] s = 5.658469e-02 (n 17.7): ||r_R|| <= 3.601e-08 (float 3.325e-10) ; ||G||_2 <= 1.694e-04
+[222s] s = 5.767404e-02 (n 17.3): ||r_R|| <= 7.535e-08 (float 7.139e-10) ; ||G||_2 <= 3.462e-04
+[228s] s = 5.840797e-02 (n 17.1): ||r_R|| <= 5.938e-08 (float 5.463e-10) ; ||G||_2 <= 2.736e-04
+[234s] s = 5.877726e-02 (n 17.0): ||r_R|| <= 1.305e-08 (float 8.990e-11) ; ||G||_2 <= 5.892e-05
+[234s] Rmax 2.629e-07  Gmax 1.208e-03
+[234s] ||delta|| <= 5.267e-02 ; Y-block operator norm <= sqrt(2) * that = 7.449e-02
+[235s] subinterval 1/16: worst lambda_min so far 0.5495
+[236s] subinterval 2/16: worst lambda_min so far 0.5495
+[237s] subinterval 3/16: worst lambda_min so far 0.5495
+[238s] subinterval 4/16: worst lambda_min so far 0.5495
+[239s] subinterval 5/16: worst lambda_min so far 0.5495
+[240s] subinterval 6/16: worst lambda_min so far 0.5495
+[241s] subinterval 7/16: worst lambda_min so far 0.5495
+[242s] subinterval 8/16: worst lambda_min so far 0.5495
+[243s] subinterval 9/16: worst lambda_min so far 0.5495
+[244s] subinterval 10/16: worst lambda_min so far 0.5495
+[245s] subinterval 11/16: worst lambda_min so far 0.5495
+[246s] subinterval 12/16: worst lambda_min so far 0.5495
+[247s] subinterval 13/16: worst lambda_min so far 0.5495
+[248s] subinterval 14/16: worst lambda_min so far 0.5495
+[250s] subinterval 15/16: worst lambda_min so far 0.5495
+[251s] subinterval 16/16: worst lambda_min so far 0.5495
+[251s] PSD margin 0.5495 vs correction bound 7.449e-02 : AUDIT (INFL=10, Frobenius G) UNIFORM CERTIFICATE VERIFIED

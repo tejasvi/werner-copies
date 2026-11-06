@@ -1,0 +1,11 @@
+[1s] 240 result files; primes [2097023, 2097031, 2097041, 2097047, 2097083, 2097091, 2097097, 2097131, 2097133, 2097143]; E=66 Elam=69 Den bits 144
+[1s] CRT over 9 primes (2^189.0) > 2 Den max(B0,B1) = 2^170.4; check prime 2097143
+[1s] family 31 R0: 36195 orbits, check prime OK, EXACT sum |R0(o)| = 1.215400240e-10 (max orbit 2.100e-14)
+[1s] family 31 R1: 36195 orbits, check prime OK, EXACT sum |R1(o)| = 6.306294976e+03 (max orbit 2.021e+01)
+[2s] family 22 R0: 79245 orbits, check prime OK, EXACT sum |R0(o)| = 8.296792436e-11 (max orbit 1.514e-14)
+[2s] family 22 R1: 79245 orbits, check prime OK, EXACT sum |R1(o)| = 6.333546742e+04 (max orbit 1.048e+01)
+[2s] family 13 R0: 36195 orbits, check prime OK, EXACT sum |R0(o)| = 1.805444276e-11 (max orbit 1.286e-14)
+[2s] family 13 R1: 36195 orbits, check prime OK, EXACT sum |R1(o)| = 7.636932820e+03 (max orbit 2.548e+00)
+[2s] EXACT S0 = 1893351430981217292283328505843863/8507059173023461586584365185794205286400000 = 2.225623911e-10
+[2s] EXACT S1 = 7.727869522e+04;  S2 <= 1153988426746;  s0 = 1/10000000000;  LK(s0) = 2.755555564
+[2s] S0 + s0 S1 + s0^2 S2 = 7.739632e-06;  margin nu - LK (...) = 9.786730141e-04  => POSITIVE (q_5(9/20, C) > 0 for every rank-2 C at every n >= 1/s0)

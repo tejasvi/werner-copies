@@ -1,0 +1,18 @@
+[0s] point: A*A = I/2, ||a||^2 = 1.000000, ||b||^2 = 1.000000, q_5(9/20, C) = 1.851157948e-01
+[5s] n=1e+03    (1) 16n^20 c(x) = 1.851157948294e-01  q5 ||a||^4 = 1.851157948294e-01  rel.err 2.8e-15
+[5s]            (2) 16n^20 tau(x) = 1.000000000000e+00  (Tr X_31 = 1)
+[5s]            (4) max |E(x)| over all literal equality rows = 2.671e-15 (part scale 9.932e-01)
+[5s]            (5) key 0/5627
+[25s]            (5) key 500/5627
+[88s]            (5) key 1000/5627
+[106s]            (5) key 1500/5627
+[120s]            (5) key 2000/5627
+[141s]            (5) key 2500/5627
+[169s]            (5) key 3000/5627
+[448s]            (5) key 3500/5627
+[463s]            (5) key 4000/5627
+[494s]            (5) key 4500/5627
+[553s]            (5) key 5000/5627
+[576s]            (5) key 5500/5627
+[605s]            (5) 5627 keys: raw blocks with min eig < -1e-12 scale: 0 (min eig/scale = -1.128e-14 over keys with n_raw <= 1100); min <Q,M>/(|Q|_1 scale) = -3.669e-20 (must be >= -1e-12)
+[605s] ALL CHECKS PASSED (seed 1)
